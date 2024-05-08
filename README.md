@@ -25,3 +25,8 @@ https://stackoverflow.com/questions/4181861/message-src-refspec-master-does-not-
 
 # Things to keep in mind
 1. As part of the upload, I pushed the opentelemetry-javaagent.jar as part of the 'target/agent' folder. In the tutorial, the jar gets added to 'target' folder as part of the gradle build plugin. Did not bother with doing the same on maven. Whenever a clean and build or package goal is run on maven, ensure to create 'agent' folder in 'target' and copy the otel jar from https://github.com/open-telemetry/opentelemetry-java-instrumentation/releases/latest/download/opentelemetry-javaagent.jar into this location. A copy of this jar is also there in the 'order-service' project folder.
+
+# Useful links
+https://opentelemetry.io/docs/demo/architecture/
+https://opentelemetry.io/docs/
+https://opentelemetry.io/docs/languages/java/getting-started/
